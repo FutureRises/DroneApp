@@ -4,11 +4,13 @@ from imageai.Detection import ObjectDetection
 from imageai.Detection import VideoObjectDetection
 import djitellopy
 
+
 def forFrame(frame_number, output_array, output_count):
     print("For Frame ", frame_number)
     print("Output for each object : ", output_array)
     print("Output count for unique objects : ", output_count)
     print("---------------------End of Frame-------------------")
+
 
 # instantiating the classes from ImageAI
 PicRecognizer = ObjectDetection()
